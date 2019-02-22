@@ -1,0 +1,28 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.question{
+  width: 50rpx;
+  height:50rpx;
+  border-radius: 50%;
+  background-color: #ffd742;
+  color: white;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  text-align: center;
+}
+.answer{
+  width: 48rpx;
+  height:48rpx;
+  border-radius: 50%;
+  border:1rpx solid  #ffd742;
+  color: #ffd742;
+  font-size: 30rpx;
+  line-height: 48rpx;
+  text-align: center;
+}

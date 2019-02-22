@@ -1,0 +1,18 @@
+<view class="body">
+  <view class='contantview'>
+    <view class='contant-today'>2019-02-15 星期四</view>
+    <view class='contant-img'>
+      <image src='../../images/index-tab.png'></image>
+    </view>
+    <view class='contant-number'>
+      <text>在馆人数<text class='number'>25</text>人</text>
+      <text class='tips'>\n不包含未扫码入座人数</text>
+      <text>\n\n剩余座位<text class='number'>25</text>位</text>
+      <text class='tips'>\n不包含未扫码入座座位</text>    
+    </view>
+    <view class='contant-sao' bindtap='cansao'>
+        <image src='../../images/index-sao.png'></image>
+        <text class='contant-sao-text'>扫二维码落座</text>
+    </view>
+  </view>
+</view>

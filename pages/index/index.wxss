@@ -1,0 +1,67 @@
+/**index.wxss首页**/
+page{
+  background-color: #f3f5f9;
+}
+.contantview{
+  width: 92%;
+  margin: 30rpx auto;
+  background-color: #fff;
+  padding-bottom: 15rpx;
+  padding-top: 40rpx;
+}
+.contant-today{
+  padding-left: 30rpx;
+  font-size: 40rpx;
+  letter-spacing: 5rpx;
+}
+.contant-img{
+  margin-top: 35rpx;
+  width: 100%;
+  height:380rpx;
+  border-radius: 15rpx;
+  box-shadow: 0 10rpx 50rpx #ffd742;
+}
+.contant-img image{
+  width: 100%;
+  height: 100%;
+}
+.contant-number{
+  width: 100%;
+  padding-left: 30rpx;
+  margin-top: 60rpx;
+  font-size: 40rpx;
+  letter-spacing: 5rpx;
+  line-height: 32rpx;
+}
+.number{
+  color: #ffd742;
+}
+.tips{
+  color: #878a8e;
+  font-size: 24rpx;
+}
+.contant-sao{
+  margin: 105rpx auto;
+  width: 75%;
+  height: 92rpx;
+  background-color: #ffd742;
+  border-top-left-radius: 50rpx;
+  border-top-right-radius: 50rpx;
+  border-bottom-left-radius: 50rpx;
+  border-bottom-right-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;  
+  font-size:42rpx;
+  color: #fff;
+  letter-spacing: 10rpx;
+}
+.contant-sao image{
+  width: 55rpx;
+  height: 55rpx;
+}
+.contant-sao-text{
+  margin-left: 20rpx;
+  margin-top: -5rpx;
+}
