@@ -1,15 +1,20 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<!--index.wxml座位-->
+<view class='mine-table'>
+  <view class='title' wx-if="{{!ishave}}"> 
+    <view class='title1'>
+      <image src='/images/3.png' mode="widthFix"></image>
+      <text class='size'>快去图书馆\n</text>
+      <text class='size'>扫描桌面上二维码进行学习吧~</text>
+    </view>
   </view>
-  <view class='question'>Q</view>
-   <view class='answer'>A</view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <view class='mine-table2' bindtap='outseat' wx-if="{{ishave}}">
+      <image class='mine-photo' src='/images/2.png'></image>
+      <image class='mine-photo1' src='/images/1.png' ></image>
+      <view class='mine-contont'>
+        <text class='mine-text' >4楼-203号\n </text>
+        <text class='mine-text1'>落座时间<text class='mine-text-show'>08:30</text>\n</text>
+        <text class='mine-text1'>预约时长<text class='mine-text-show'>4 小时</text></text>
+        <view class='mine-line'></view>
+      </view>
   </view>
 </view>

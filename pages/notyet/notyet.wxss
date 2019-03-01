@@ -1,0 +1,21 @@
+page{
+  background-color: #f3f5f9
+}
+.title{
+  width: 100%;
+  height: 650rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+}
+.title1{
+  width: 85%;
+  height: 375rpx;
+  text-align: center
+}
+.size{
+  width: 40rpx;
+  height: 40rpx;
+
+}

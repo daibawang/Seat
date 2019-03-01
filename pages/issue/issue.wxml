@@ -1,0 +1,12 @@
+<!-- 反馈 -->
+<view>
+  <input type='text' placeholder='  请填写要反馈的问题' class='title' name='title'></input>
+  <textarea placeholder='  这里是您的问题' class='content'></textarea>
+  <input type='text' placeholder='  留下您的联系方式' type="number" class='title' 
+    style='font-size:18px;color:rgb(190, 191, 194);'></input>
+  <view>
+    <view class='button-sure' bindtap='timesure'>
+      <text class='button-sure-text'>确  认</text>
+    </view>
+  </view>
+</view>

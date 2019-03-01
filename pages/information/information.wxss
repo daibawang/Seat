@@ -1,0 +1,76 @@
+page {
+  display: block;
+  min-height: 100%;
+  background-color:  #f3f5f9;
+}
+.head-img{
+  float: right;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  margin-top: 8rpx;
+  border: 1rpx solid #fff;
+}
+.messageBox{
+  margin-top: 25rpx;
+  background-color: white;
+  padding-bottom: 20rpx;
+}
+
+.messageBox view{
+  font-size: 18px;
+  font-weight: 560;
+  line-height: 120rpx;
+  margin: 0 30px;
+  border-bottom: 1.5px solid #f3f5f9;
+}
+
+.message{
+  margin: 25rpx 0 0 0;
+  height: 40px;
+  float: right;
+  color: rgb(170, 172, 175);
+  margin-right: 0 !important;
+  text-align: right;
+  letter-spacing: 3rpx;
+}
+.name{
+  margin: 0rpx 0 0 0;
+}
+.userinfo-avatar {
+  float: right;
+  width: 110rpx;
+  height: 110rpx;
+  margin-top: 8rpx;
+  margin-bottom: -30rpx;
+  border-radius: 50%;
+}
+
+.buttonImg{
+  width: 300rpx;
+  height: 75rpx;
+}
+
+.button-sure{
+  margin: 170rpx auto;
+  width: 60%;
+  height: 92rpx;
+  background-color: #ffd742;
+  border-top-left-radius: 50rpx;
+  border-top-right-radius: 50rpx;
+  border-bottom-left-radius: 50rpx;
+  border-bottom-right-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;  
+  font-size:45rpx;
+  color: #fff;
+  letter-spacing: 10rpx;
+}
+.button-sure-text{
+  margin-left: 20rpx;
+  margin-top: -5rpx;
+}

@@ -1,0 +1,38 @@
+<!--pages/timesure/timesure.wxml确认时间-->
+<view class='body'>
+  <view class='cocontant-top'>
+    <view class='cocontant-logo'>
+      <image src='../../images/sure-logo.png'></image>
+    </view>
+    <view class='cocontant-bottom'>
+      <text class='title' >定制你的专属学习时间</text> 
+      <view class='timeselect'>
+        <picker-view
+          indicator-style="height: 50px;"
+          class='timepicker'
+          value="{{value}}"
+          bindchange="bindpickend"
+        >
+          <picker-view-column>
+            <view wx:for="{{times}}"style="line-height:50px">{{item}}</view>
+          </picker-view-column>
+        </picker-view>
+        <text class='timehour'>小时</text>
+      </view>
+      <view class='tips'>提示：定制时间结束后座位将被释放，需重新扫码定制</view>
+    </view>
+  </view>
+  <view class='cocontant-sure'>
+    <view class='cocontant-sure-number'>
+      <text class='cocontant-sure-left'>确认桌号</text>
+      <text class='cocontant-sure-right'>3楼-203</text>
+    </view>
+    <view class='cocontant-sure-data'>
+      <text class='cocontant-sure-left'>学习日期</text>
+      <text class='cocontant-sure-right'>2019/02/15</text>
+    </view>
+  </view>
+    <view class='button-sure' bindtap='timesure'>
+      <text class='button-sure-text'>确  认</text>
+    </view>
+</view>

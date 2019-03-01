@@ -1,43 +1,87 @@
 /* pages/mine/mine.wxss */
-.userinfo {
+page{
+background-color:#f3f5f9;
+}
+.title{
+  width: 100%;
+  height: 650rpx;
   display: flex;
-  flex-direction: column;
   align-items: center;
-}
+  justify-content: center; 
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
 }
-
-.userinfo-nickname {
-  color: #aaa;
+.title1{
+  width: 85%;
+  height: 375rpx;
+  text-align: center
 }
+.size{
+  width: 40rpx;
+  height: 40rpx;
 
-.usermotto {
-  margin-top: 200px;
 }
-
-.question1{
-  width: 50rpx;
-  height:50rpx;
-  border-radius: 50%;
-  border:1rpx solid  #000;
+.mine-table{
+  width: 100%;
+}
+.mine-table2{
+  margin:56rpx auto;
+  width: 680rpx;
+  height: 286rpx;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+}
+.mine-photo{
+  position: absolute;
+  float: right;
+  left:410rpx;
+  width: 300rpx;
+  height: 280rpx;
+  border-radius: 10rpx;
+}
+.mine-photo1{
+  position: absolute;
+  float: left;
+  left:65rpx;
+  margin-top: 212rpx;
+  width:460rpx;
+  height: 60rpx;
+  
+}
+.mine-photo2{
+  position: absolute;
+  float: left;
+  left:67rpx;
+  margin-top: 175rpx;
+  width:65rpx;
+  height: 10rpx;
+  
+}
+.mine-contont{
+left: 65rpx;
+ top: 65rpx;
+ float: left;
+ position: absolute;
+ line-height: 55rpx;
+ letter-spacing: 5rpx;
+}
+.mine-text{
+ font-size: 40rpx;
+ color: #ffd742;
+}
+.mine-text1{
+  font-size: 30rpx;
+  color: #000000;
+}
+.mine-line{
+  margin-top: 5rpx;
+  width: 68rpx;
   background-color: #ffd742;
-  color: #000;
-  font-size: 30rpx;
-  line-height: 50rpx;
-  text-align: center;
+  height: 4rpx;
 }
-.answer1{
-  width: 50rpx;
-  height:50rpx;
-  border-radius: 50%;
-  border:1rpx solid  #000;
-  color: #000;
-  font-size: 30rpx;
-  line-height: 50rpx;
-  text-align: center;
+.mine-text-show{
+  margin-left: 20rpx;
+  color: #767572;
 }
+
+
+

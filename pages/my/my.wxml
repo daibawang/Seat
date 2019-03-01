@@ -1,0 +1,73 @@
+<!--index.wxml-->
+<view class='top'>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+            <view class='img' >
+              <icon class="iconfont icon-right font" bindtap="gomyine" ></icon>
+            </view>      
+      <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover" ></image>  
+
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class='top-2'>
+  </view>
+  <view class='end'>
+    <view class='b1 c'>
+      <view class='num'>
+        <view class='new1 new'>4</view>
+        <view class='new2 new'>时</view>
+      </view>
+      <view class='num2'>累计学习</view>
+    </view>
+    
+<view class='b2 c'></view>
+    
+    <view class='b3 c'>
+     <view class='num'>
+       <view class='new1 new'>99</view>
+       <view class='new2 new'>时</view>
+     </view>
+     <view class='num2'>学习天数</view>
+    </view>
+    
+    <view class='b4 c'>
+    </view>
+    
+    <view class='b5 c'>  
+     <view class='num'>
+       <view class='new3 new'>999</view>
+       <view class='new2 new'>名</view>
+     </view>
+     <view class='num2'>学习排名</view>
+    </view>
+    </view>
+  <view class='top-3'>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='bm1 bm-1'></view>
+  <view class='bm2 bm-2'>
+    <view class='write'>我的消息</view>
+    <view class='jian' bindtap='gomessage'><icon class="iconfont icon-right"></icon></view>
+  </view>
+  <view class='bm3 bm-1'></view>
+  <view class='bm4 bm-2'>
+    <view class='write'>使用规则</view>
+   <view class='jian'><icon class="iconfont icon-right"></icon></view>
+  </view>
+  <view class='bm2 bm-1'></view>
+  <view class='bm3 bm-2'>
+    <view class='write'>我要吐槽</view>
+   <view class='jian' bindtap='goquestion'><icon class="iconfont icon-right"></icon></view>
+  </view>
+  <view class='bm4 bm-1'></view>
+  <view class='bm5 bm-2'>
+    <view class='write'>我的消息</view>
+   <view class='jian'><icon class="iconfont icon-right"></icon></view>
+  </view>
+  <view class='bm6 bm-1'></view>
+
+  
+</view>

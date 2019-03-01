@@ -1,0 +1,30 @@
+<view>
+  <view class='messageBox'>
+    <view>头像
+      <open-data type="userAvatarUrl" class="head-img"></open-data>
+    </view>
+    <view>
+      昵称
+      <text class='message name'>猪头少年</text>
+    </view>
+  </view>
+  <view class='messageBox'>
+    <view>
+      姓名
+      <input class='message' placeholder='请填写' confirm-type='done'></input>
+    </view>
+    <view>
+      学号
+      <input class='message' placeholder='请填写' type="number"confirm-type='done'></input>
+    </view>
+    <view>
+      学部
+      <input class='message' placeholder='请填写' confirm-type='done'></input>
+    </view>
+  </view>
+  <view>
+    <view class='button-sure' bindtap='timesure'>
+      <text class='button-sure-text'>确  认</text>
+    </view>
+  </view>
+</view>

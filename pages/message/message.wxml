@@ -1,0 +1,8 @@
+<view class='main'>
+  <view class='item' wx:for="{{message}}">
+    <view><image class="userinfo-avatar" src='/images/image.jpg'></image></view>
+    <view class='id'>{{item.name}}</view>
+    <view class='message'>在等待你的位置</view>
+    <view class='bay'>{{item.date}}</view>
+  </view>
+</view>

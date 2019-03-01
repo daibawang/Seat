@@ -1,0 +1,10 @@
+<!--pages/notyet/notyet.wxml-->
+<view class='black'>
+  <view class='title'>
+    <view class='title1'>
+      <image src='/images/3.png' mode="widthFix"></image>
+      <text class='size'>快去图书馆\n</text>
+      <text class='size'>扫描桌面上二维码进行学习吧~</text>
+    </view>
+  </view>
+</view>

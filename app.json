@@ -1,8 +1,14 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/seatselect/seatselect",
+    "pages/my/my",
+    "pages/issue/issue",
+    "pages/someone/someone",    
+    "pages/message/message",
+    "pages/information/information",
     "pages/mine/mine",
+    "pages/timesure/timesure",
+    "pages/seatselect/seatselect",
     "pages/logs/logs"
   ],
   "window":{
@@ -22,12 +28,12 @@
       "iconPath": "images/tab1_2.png",
       "selectedIconPath": "images/tab1_2s.png"
     },{
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/mine/mine",
       "text": "座位",
       "iconPath": "images/tab3_2.png",
       "selectedIconPath": "images/tab3_2s.png"
     },{
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/my/my",
       "text": "我的",
       "iconPath": "images/tab2_1.png",
       "selectedIconPath": "images/tab2_1s.png"
